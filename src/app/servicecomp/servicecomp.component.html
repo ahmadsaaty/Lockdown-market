@@ -1,0 +1,22 @@
+<navbar></navbar>
+<br>
+<!-- ======= Services Section ======= -->
+<section id="services" class="services section-bg">
+    <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+            <h2>Services</h2>
+            <p>Offering a wide variety of services</p>
+        </div>
+
+        <div class="row">
+            <app-service-feature *ngFor="let s of service" [title]='s.title' [description]='s.Description'
+                class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            </app-service-feature>
+
+
+
+        </div>
+
+    </div>
+</section><!-- End Services Section -->

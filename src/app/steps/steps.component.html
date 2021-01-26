@@ -1,0 +1,18 @@
+<navbar></navbar>
+<br>
+<!-- ======= Steps Section ======= -->
+<section id="steps" class="steps section-bg">
+    <div class="container">
+
+        <div class="row no-gutters">
+
+
+            <app-steps-feature [id]='u.id' [title]='u.title' [Description]='u.Description' *ngFor='let u of chocolate'>
+            </app-steps-feature>
+
+
+
+        </div>
+
+    </div>
+</section><!-- End Steps Section -->
